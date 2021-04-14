@@ -555,17 +555,31 @@ li {
 .resume-header {
   width: 100%;
   max-width: 1140px;
-  margin-top: 80px;
+  margin-top: 104px;
   padding-top: 128px;
 }
 
 .resume-title {
+  margin-top: 0px;
   margin-bottom: 12px;
 }
 
 .resume-header-content-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   padding-right: 16px;
   padding-left: 16px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .resume-content-wrapper {
