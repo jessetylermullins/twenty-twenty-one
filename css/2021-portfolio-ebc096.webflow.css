@@ -752,10 +752,9 @@ li {
   max-width: 754px;
   margin-top: 32px;
   margin-bottom: 32px;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
@@ -767,6 +766,14 @@ li {
   margin-left: 0px;
   -o-object-fit: fill;
   object-fit: fill;
+}
+
+.about-header-image.about-header-image-2 {
+  max-width: 45%;
+}
+
+.about-header-image.about-header-image-1 {
+  max-width: 45%;
 }
 
 .about-header-content-wrapper {
