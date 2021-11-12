@@ -1093,6 +1093,7 @@ li {
   }
 
   .home-header-content {
+    width: 100%;
     max-width: 100%;
     margin-right: 0px;
     margin-bottom: 64px;
@@ -1187,6 +1188,10 @@ li {
 
   .footer {
     max-width: 480px;
+  }
+
+  .build-better-together {
+    width: 100%;
   }
 
   .portfolio-selected-work-link-wrapper {
