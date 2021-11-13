@@ -165,13 +165,9 @@ li {
 
 .home-header-image {
   display: block;
-  height: auto;
   max-height: 350px;
-  max-width: none;
   margin-right: 0px;
   text-align: left;
-  -o-object-fit: fill;
-  object-fit: fill;
 }
 
 .navbar {
